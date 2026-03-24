@@ -1,0 +1,1 @@
+This process runs a Python script that monitors the ALS sensor for ambient brightness and, based on it, automatically turns the integrated keyboard backlight of the Asus Zenbook laptop on/off.

@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto keyboard backlight via ALS sensor
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/antonio/Developer/als_zenbook_linux/kbd-backlight-auto.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
